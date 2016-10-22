@@ -1,5 +1,6 @@
 # IJKPlayerDemo
 IJKPlayerDemo : IJKPlayer的使用,感谢BliBli
+[IJKPlayer下载](https://github.com/Bilibili/ijkplayer)
 
 [IJKPlayer的集成](http://www.jianshu.com/p/1f06b27b3ac0)
 
@@ -9,17 +10,17 @@ IJKPlayerDemo : IJKPlayer的使用,感谢BliBli
 
 ##需要的框架:
  AudioToolbox.framework
-#         AVFoundation.framework
-#         CoreGraphics.framework
-#         CoreMedia.framework
-#         CoreVideo.framework
-#         libbz2.tbd
-#         libz.tbd
-#         MediaPlayer.framework
-#         MobileCoreServices.framework
-#         OpenGLES.framework
-#         QuartzCore.framework
-#         UIKit.framework
-#         VideoToolbox.framework
+###         AVFoundation.framework
+###         CoreGraphics.framework
+###         CoreMedia.framework
+###         CoreVideo.framework
+###         libbz2.tbd
+###         libz.tbd
+###         MediaPlayer.framework
+###         MobileCoreServices.framework
+###         OpenGLES.framework
+###         QuartzCore.framework
+###         UIKit.framework
+###         VideoToolbox.framework
 
 ![图片](https://github.com/Rochester-Ting/Picture/blob/master/ijk.gif)
