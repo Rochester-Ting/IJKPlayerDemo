@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0B62631DBBA9F60012FE0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B62621DBBA9F60012FE0C /* main.m */; };
+		CA0B62661DBBA9F60012FE0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B62651DBBA9F60012FE0C /* AppDelegate.m */; };
+		CA0B62691DBBA9F60012FE0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B62681DBBA9F60012FE0C /* ViewController.m */; };
+		CA0B626C1DBBA9F60012FE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0B626A1DBBA9F60012FE0C /* Main.storyboard */; };
+		CA0B626E1DBBA9F60012FE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0B626D1DBBA9F60012FE0C /* Assets.xcassets */; };
+		CA0B62711DBBA9F60012FE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0B626F1DBBA9F60012FE0C /* LaunchScreen.storyboard */; };
+		CA0B627C1DBBA9F60012FE0C /* ijkplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B627B1DBBA9F60012FE0C /* ijkplayerTests.m */; };
+		CA0B62871DBBA9F60012FE0C /* ijkplayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B62861DBBA9F60012FE0C /* ijkplayerUITests.m */; };
+		CA0B62981DBBAA8B0012FE0C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62971DBBAA8B0012FE0C /* libz.tbd */; };
+		CA0B629A1DBBAA9C0012FE0C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62991DBBAA9C0012FE0C /* libbz2.tbd */; };
+		CA0B629C1DBBAAAB0012FE0C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B629B1DBBAAAB0012FE0C /* AudioToolbox.framework */; };
+		CA0B629E1DBBAABA0012FE0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B629D1DBBAABA0012FE0C /* AVFoundation.framework */; };
+		CA0B62A01DBBAB180012FE0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B629F1DBBAB180012FE0C /* CoreGraphics.framework */; };
+		CA0B62A21DBBAB1F0012FE0C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62A11DBBAB1F0012FE0C /* CoreMedia.framework */; };
+		CA0B62A41DBBAB260012FE0C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62A31DBBAB260012FE0C /* CoreVideo.framework */; };
+		CA0B62A61DBBAB2D0012FE0C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62A51DBBAB2D0012FE0C /* MediaPlayer.framework */; };
+		CA0B62A81DBBAB340012FE0C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62A71DBBAB340012FE0C /* MobileCoreServices.framework */; };
+		CA0B62AA1DBBAB3B0012FE0C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62A91DBBAB3B0012FE0C /* OpenGLES.framework */; };
+		CA0B62AC1DBBAB410012FE0C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62AB1DBBAB410012FE0C /* QuartzCore.framework */; };
+		CA0B62AE1DBBAB470012FE0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62AD1DBBAB470012FE0C /* UIKit.framework */; };
+		CA0B62B01DBBAB510012FE0C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62AF1DBBAB510012FE0C /* VideoToolbox.framework */; };
+		CA0B62B61DBBAC9D0012FE0C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B62B51DBBAC9D0012FE0C /* IJKMediaFramework.framework */; };
+		CA0B62B91DBBB10D0012FE0C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0B62B81DBBB10D0012FE0C /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0B62781DBBA9F60012FE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0B62561DBBA9F60012FE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0B625D1DBBA9F60012FE0C;
+			remoteInfo = ijkplayer;
+		};
+		CA0B62831DBBA9F60012FE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0B62561DBBA9F60012FE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0B625D1DBBA9F60012FE0C;
+			remoteInfo = ijkplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0B625E1DBBA9F60012FE0C /* ijkplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ijkplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0B62621DBBA9F60012FE0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0B62641DBBA9F60012FE0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA0B62651DBBA9F60012FE0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA0B62671DBBA9F60012FE0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA0B62681DBBA9F60012FE0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA0B626B1DBBA9F60012FE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0B626D1DBBA9F60012FE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0B62701DBBA9F60012FE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0B62721DBBA9F60012FE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0B62771DBBA9F60012FE0C /* ijkplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ijkplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0B627B1DBBA9F60012FE0C /* ijkplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ijkplayerTests.m; sourceTree = "<group>"; };
+		CA0B627D1DBBA9F60012FE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0B62821DBBA9F60012FE0C /* ijkplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ijkplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0B62861DBBA9F60012FE0C /* ijkplayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ijkplayerUITests.m; sourceTree = "<group>"; };
+		CA0B62881DBBA9F60012FE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0B62971DBBAA8B0012FE0C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CA0B62991DBBAA9C0012FE0C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		CA0B629B1DBBAAAB0012FE0C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CA0B629D1DBBAABA0012FE0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CA0B629F1DBBAB180012FE0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0B62A11DBBAB1F0012FE0C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CA0B62A31DBBAB260012FE0C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CA0B62A51DBBAB2D0012FE0C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CA0B62A71DBBAB340012FE0C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CA0B62A91DBBAB3B0012FE0C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CA0B62AB1DBBAB410012FE0C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA0B62AD1DBBAB470012FE0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0B62AF1DBBAB510012FE0C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		CA0B62B51DBBAC9D0012FE0C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		CA0B62B71DBBB10D0012FE0C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CA0B62B81DBBB10D0012FE0C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0B625B1DBBA9F60012FE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0B62B01DBBAB510012FE0C /* VideoToolbox.framework in Frameworks */,
+				CA0B62AE1DBBAB470012FE0C /* UIKit.framework in Frameworks */,
+				CA0B62AC1DBBAB410012FE0C /* QuartzCore.framework in Frameworks */,
+				CA0B62AA1DBBAB3B0012FE0C /* OpenGLES.framework in Frameworks */,
+				CA0B62A81DBBAB340012FE0C /* MobileCoreServices.framework in Frameworks */,
+				CA0B62A61DBBAB2D0012FE0C /* MediaPlayer.framework in Frameworks */,
+				CA0B62A41DBBAB260012FE0C /* CoreVideo.framework in Frameworks */,
+				CA0B62A21DBBAB1F0012FE0C /* CoreMedia.framework in Frameworks */,
+				CA0B62A01DBBAB180012FE0C /* CoreGraphics.framework in Frameworks */,
+				CA0B629E1DBBAABA0012FE0C /* AVFoundation.framework in Frameworks */,
+				CA0B629C1DBBAAAB0012FE0C /* AudioToolbox.framework in Frameworks */,
+				CA0B629A1DBBAA9C0012FE0C /* libbz2.tbd in Frameworks */,
+				CA0B62981DBBAA8B0012FE0C /* libz.tbd in Frameworks */,
+				CA0B62B61DBBAC9D0012FE0C /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B62741DBBA9F60012FE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B627F1DBBA9F60012FE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0B62551DBBA9F60012FE0C = {
+			isa = PBXGroup;
+			children = (
+				CA0B62601DBBA9F60012FE0C /* ijkplayer */,
+				CA0B627A1DBBA9F60012FE0C /* ijkplayerTests */,
+				CA0B62851DBBA9F60012FE0C /* ijkplayerUITests */,
+				CA0B625F1DBBA9F60012FE0C /* Products */,
+				CA0B62961DBBAA8B0012FE0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0B625F1DBBA9F60012FE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B625E1DBBA9F60012FE0C /* ijkplayer.app */,
+				CA0B62771DBBA9F60012FE0C /* ijkplayerTests.xctest */,
+				CA0B62821DBBA9F60012FE0C /* ijkplayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0B62601DBBA9F60012FE0C /* ijkplayer */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B62B71DBBB10D0012FE0C /* UIView+Frame.h */,
+				CA0B62B81DBBB10D0012FE0C /* UIView+Frame.m */,
+				CA0B62641DBBA9F60012FE0C /* AppDelegate.h */,
+				CA0B62651DBBA9F60012FE0C /* AppDelegate.m */,
+				CA0B62671DBBA9F60012FE0C /* ViewController.h */,
+				CA0B62681DBBA9F60012FE0C /* ViewController.m */,
+				CA0B626A1DBBA9F60012FE0C /* Main.storyboard */,
+				CA0B626D1DBBA9F60012FE0C /* Assets.xcassets */,
+				CA0B626F1DBBA9F60012FE0C /* LaunchScreen.storyboard */,
+				CA0B62721DBBA9F60012FE0C /* Info.plist */,
+				CA0B62611DBBA9F60012FE0C /* Supporting Files */,
+			);
+			path = ijkplayer;
+			sourceTree = "<group>";
+		};
+		CA0B62611DBBA9F60012FE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B62621DBBA9F60012FE0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA0B627A1DBBA9F60012FE0C /* ijkplayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B627B1DBBA9F60012FE0C /* ijkplayerTests.m */,
+				CA0B627D1DBBA9F60012FE0C /* Info.plist */,
+			);
+			path = ijkplayerTests;
+			sourceTree = "<group>";
+		};
+		CA0B62851DBBA9F60012FE0C /* ijkplayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B62861DBBA9F60012FE0C /* ijkplayerUITests.m */,
+				CA0B62881DBBA9F60012FE0C /* Info.plist */,
+			);
+			path = ijkplayerUITests;
+			sourceTree = "<group>";
+		};
+		CA0B62961DBBAA8B0012FE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B62B51DBBAC9D0012FE0C /* IJKMediaFramework.framework */,
+				CA0B62AF1DBBAB510012FE0C /* VideoToolbox.framework */,
+				CA0B62AD1DBBAB470012FE0C /* UIKit.framework */,
+				CA0B62AB1DBBAB410012FE0C /* QuartzCore.framework */,
+				CA0B62A91DBBAB3B0012FE0C /* OpenGLES.framework */,
+				CA0B62A71DBBAB340012FE0C /* MobileCoreServices.framework */,
+				CA0B62A51DBBAB2D0012FE0C /* MediaPlayer.framework */,
+				CA0B62A31DBBAB260012FE0C /* CoreVideo.framework */,
+				CA0B62A11DBBAB1F0012FE0C /* CoreMedia.framework */,
+				CA0B629F1DBBAB180012FE0C /* CoreGraphics.framework */,
+				CA0B629D1DBBAABA0012FE0C /* AVFoundation.framework */,
+				CA0B629B1DBBAAAB0012FE0C /* AudioToolbox.framework */,
+				CA0B62991DBBAA9C0012FE0C /* libbz2.tbd */,
+				CA0B62971DBBAA8B0012FE0C /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0B625D1DBBA9F60012FE0C /* ijkplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0B628B1DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayer" */;
+			buildPhases = (
+				CA0B625A1DBBA9F60012FE0C /* Sources */,
+				CA0B625B1DBBA9F60012FE0C /* Frameworks */,
+				CA0B625C1DBBA9F60012FE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ijkplayer;
+			productName = ijkplayer;
+			productReference = CA0B625E1DBBA9F60012FE0C /* ijkplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0B62761DBBA9F60012FE0C /* ijkplayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0B628E1DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayerTests" */;
+			buildPhases = (
+				CA0B62731DBBA9F60012FE0C /* Sources */,
+				CA0B62741DBBA9F60012FE0C /* Frameworks */,
+				CA0B62751DBBA9F60012FE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0B62791DBBA9F60012FE0C /* PBXTargetDependency */,
+			);
+			name = ijkplayerTests;
+			productName = ijkplayerTests;
+			productReference = CA0B62771DBBA9F60012FE0C /* ijkplayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA0B62811DBBA9F60012FE0C /* ijkplayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0B62911DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayerUITests" */;
+			buildPhases = (
+				CA0B627E1DBBA9F60012FE0C /* Sources */,
+				CA0B627F1DBBA9F60012FE0C /* Frameworks */,
+				CA0B62801DBBA9F60012FE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0B62841DBBA9F60012FE0C /* PBXTargetDependency */,
+			);
+			name = ijkplayerUITests;
+			productName = ijkplayerUITests;
+			productReference = CA0B62821DBBA9F60012FE0C /* ijkplayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0B62561DBBA9F60012FE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CA0B625D1DBBA9F60012FE0C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CA0B62761DBBA9F60012FE0C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA0B625D1DBBA9F60012FE0C;
+					};
+					CA0B62811DBBA9F60012FE0C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA0B625D1DBBA9F60012FE0C;
+					};
+				};
+			};
+			buildConfigurationList = CA0B62591DBBA9F60012FE0C /* Build configuration list for PBXProject "ijkplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0B62551DBBA9F60012FE0C;
+			productRefGroup = CA0B625F1DBBA9F60012FE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0B625D1DBBA9F60012FE0C /* ijkplayer */,
+				CA0B62761DBBA9F60012FE0C /* ijkplayerTests */,
+				CA0B62811DBBA9F60012FE0C /* ijkplayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0B625C1DBBA9F60012FE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0B62711DBBA9F60012FE0C /* LaunchScreen.storyboard in Resources */,
+				CA0B626E1DBBA9F60012FE0C /* Assets.xcassets in Resources */,
+				CA0B626C1DBBA9F60012FE0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B62751DBBA9F60012FE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B62801DBBA9F60012FE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0B625A1DBBA9F60012FE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0B62B91DBBB10D0012FE0C /* UIView+Frame.m in Sources */,
+				CA0B62691DBBA9F60012FE0C /* ViewController.m in Sources */,
+				CA0B62661DBBA9F60012FE0C /* AppDelegate.m in Sources */,
+				CA0B62631DBBA9F60012FE0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B62731DBBA9F60012FE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0B627C1DBBA9F60012FE0C /* ijkplayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0B627E1DBBA9F60012FE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0B62871DBBA9F60012FE0C /* ijkplayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0B62791DBBA9F60012FE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0B625D1DBBA9F60012FE0C /* ijkplayer */;
+			targetProxy = CA0B62781DBBA9F60012FE0C /* PBXContainerItemProxy */;
+		};
+		CA0B62841DBBA9F60012FE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0B625D1DBBA9F60012FE0C /* ijkplayer */;
+			targetProxy = CA0B62831DBBA9F60012FE0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0B626A1DBBA9F60012FE0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0B626B1DBBA9F60012FE0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0B626F1DBBA9F60012FE0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0B62701DBBA9F60012FE0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0B62891DBBA9F60012FE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0B628A1DBBA9F60012FE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0B628C1DBBA9F60012FE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayer",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ijkplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA0B628D1DBBA9F60012FE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayer",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ijkplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA0B628F1DBBA9F60012FE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ijkplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ijkplayer.app/ijkplayer";
+			};
+			name = Debug;
+		};
+		CA0B62901DBBA9F60012FE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ijkplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ijkplayer.app/ijkplayer";
+			};
+			name = Release;
+		};
+		CA0B62921DBBA9F60012FE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ijkplayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ijkplayer;
+			};
+			name = Debug;
+		};
+		CA0B62931DBBA9F60012FE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ijkplayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.ijkplayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ijkplayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0B62591DBBA9F60012FE0C /* Build configuration list for PBXProject "ijkplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0B62891DBBA9F60012FE0C /* Debug */,
+				CA0B628A1DBBA9F60012FE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0B628B1DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0B628C1DBBA9F60012FE0C /* Debug */,
+				CA0B628D1DBBA9F60012FE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA0B628E1DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0B628F1DBBA9F60012FE0C /* Debug */,
+				CA0B62901DBBA9F60012FE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA0B62911DBBA9F60012FE0C /* Build configuration list for PBXNativeTarget "ijkplayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0B62921DBBA9F60012FE0C /* Debug */,
+				CA0B62931DBBA9F60012FE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0B62561DBBA9F60012FE0C /* Project object */;
+}
